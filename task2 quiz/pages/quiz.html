@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master</title>
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1 id="quiz-title"><i class="fas fa-question-circle"></i> Quiz Master</h1>
+        </header>
+        <main id="quiz-content">
+            <div class="question-card">
+                <div id="timer">
+                    <i class="fas fa-clock"></i> Time left: <span id="time">10</span>s
+                </div>
+                <h2 id="question">Question will go here</h2>
+                <ul id="choices">
+                    <!-- Choices will be injected here -->
+                </ul>
+            </div>
+            <button id="next-button"><i class="fas fa-arrow-right"></i> Next</button>
+        </main>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
